@@ -117,19 +117,6 @@ body{
 
 }
 
-
-#argola{
-
-    width: 360px;
-    height: 360px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    background-color:#363636
-
-}
-
 .esferas{
 
     background-color: #0e0d0d;
@@ -162,5 +149,18 @@ body{
 #esfera04{
 
     margin-top: 329px;
+
+}
+
+#argola2{
+
+    height: 390px;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-image: url(omnitrix.png);
+    background-size: cover;
 
 }
