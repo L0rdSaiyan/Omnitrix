@@ -1,0 +1,91 @@
+body{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(360deg, green,black);
+
+}
+
+.omnitrix{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#fundo{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+
+.poligonos{
+
+    width: 100px;
+    height: 170px;
+    background-color: black;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    border-radius:  70% 0 0 70%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#poligono2{
+
+    transform: rotate(180deg);
+    position: absolute;
+    margin-left: 150px;
+    
+}
+
+.poligonosd{
+
+    width: 90px;
+    height: 130px;
+    background-color: gray;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    border-radius:  70% 0 0 70%;
+    position: absolute;
+
+    
+
+}
+
+#circulo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    width: 260px;
+    height: 260px;
+    background-color: black;
+    position: absolute;
+
+
+}
+
+#circulo2{
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+
+}
