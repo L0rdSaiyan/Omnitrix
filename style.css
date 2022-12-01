@@ -104,10 +104,24 @@ body{
 
 }
 
+#circulo4{
+
+
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: black;
+
+}
+
+
 #argola{
 
-    width: 350px;
-    height: 350px;
+    width: 360px;
+    height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +132,7 @@ body{
 
 .esferas{
 
-    background-color: red;
+    background-color: #0e0d0d;
     width: 23px;
     height: 23px;
     border-radius: 100%;
@@ -128,6 +142,25 @@ body{
 
 #esfera01{
 
-    margin-bottom: 324px;
+    margin-bottom: 329px;
+
+}
+
+#esfera02{
+
+    margin-right: 330px;
+
+
+}
+
+#esfera03{
+
+    margin-left: 330px;
+
+}
+
+#esfera04{
+
+    margin-top: 329px;
 
 }
