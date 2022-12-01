@@ -21,7 +21,7 @@ body{
     width: 250px;
     height: 250px;
     border-radius: 300px;
-    background-color: green;
+    background-color: #AAF127;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -104,3 +104,30 @@ body{
 
 }
 
+#argola{
+
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color:#363636
+
+}
+
+.esferas{
+
+    background-color: red;
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    position: absolute;
+
+}
+
+#esfera01{
+
+    margin-bottom: 324px;
+
+}
