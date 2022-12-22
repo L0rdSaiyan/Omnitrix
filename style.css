@@ -164,3 +164,45 @@ body{
     background-size: cover;
 
 }
+
+#torresmo{
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+
+}
+
+#torresmo:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 200ms;
+    
+
+}
+
+@keyframes identifier {
+    
+    100%{transform: rotate(360deg);}
+
+
+}
+
+#argola2mover{
+   
+    height: 390px;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-image: url(omnitrix.png);
+    background-size: cover;
+    transition: 200ms;
+    animation-name:identifier ;
+    animation-duration: 1s;
+
+
+}
+
