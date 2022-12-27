@@ -162,5 +162,21 @@ body{
     border-radius: 100%;
     background-image: url(omnitrix.png);
     background-size: cover;
+    position: absolute;
+    
+}
 
+
+.omnitrix2Girar{
+
+    animation-name: girar;
+    animation-duration: 0.5s;
+    animation-fill-mode: backwards;
+
+
+}
+
+@keyframes girar{
+
+    100%{transform: rotate(90deg);}
 }
