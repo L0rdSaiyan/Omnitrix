@@ -172,8 +172,6 @@ body{
     animation-name: girar;
     animation-duration: 0.5s;
     animation-fill-mode: backwards;
-
-
 }
 
 @keyframes girar{
